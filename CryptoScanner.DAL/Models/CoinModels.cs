@@ -10,6 +10,7 @@ namespace CryptoScanner.DAL.Models;
 // CoinRoot myDeserializedClass = JsonConvert.DeserializeObject<CoinRoot>(myJsonResponse);
 public class Description
 {
+
     [JsonProperty("en")]
     public string En { get; set; }
 
